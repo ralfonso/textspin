@@ -191,13 +191,14 @@ footer {
     text-align: center;
     color: white;
 
-    $footer_link_color: #743F7F;
+    $footer_link_color: white;
 
     div {
         font-size: .75em;
         margin-bottom: 5px;
 
         a {
+            text-decoration: underline;
             color: $footer_link_color;
 
             &:visited {
@@ -205,7 +206,7 @@ footer {
             }
 
             &:hover {
-                color: #88AA99;
+                color: #743F7F;
             }
         }
     }
