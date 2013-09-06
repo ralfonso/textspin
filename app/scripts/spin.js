@@ -3,7 +3,7 @@
 textspin.controller('SpinCtrl', ['$scope', '$routeParams', '$location', '$timeout', '$window',
     function($scope, $routeParams, $location, $timeout, $window) {
         // set some default params and lols
-        var defaultSpeed = 50;
+        var defaultSpeed = 40;
         var defaultArms = 9;
         var randomLols = ['DUCKTALES',
                           'LOADING, LOL',
