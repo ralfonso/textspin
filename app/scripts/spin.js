@@ -21,6 +21,7 @@ textspin.controller('SpinCtrl', ['$scope', '$routeParams', '$location', '$timeou
                           'STACY BURRITO',
                           'CHAMPAGNE BUTTON',
                           '--<()>--',
+                          'DIDGERIDAVE',
                           'SPINDERELLA',
                           'C.R.E.A.M.',
                           'EPIC BEARD',
