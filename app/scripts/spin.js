@@ -20,7 +20,7 @@ textspin.controller('SpinCtrl', ['$scope', '$routeParams', '$location', '$timeou
                           'CHIPOTLE OBSESSION',
                           'STACY BURRITO',
                           'CHAMPAGNE BUTTON',
-                          '--<()>--',
+                          '<D<--<({ ..X.. })>-->D>',
                           'DIDGERIDAVE',
                           'SPINDERELLA',
                           'C.R.E.A.M.',
