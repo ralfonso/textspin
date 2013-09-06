@@ -1,0 +1,27 @@
+<div class="craft">
+  <ul>
+    <li class="text">
+      <label for="text">spinner text</label>
+      <div>
+        <input type="text" id="text" data-ng-model="spinner.text" data-lol="that's a big damn button" />
+      </div>
+    </li>
+    <li class="arms">
+      <label for="arms">arms</label>
+      <input type="number" id="arms" min="1" max="30"  data-ng-model="spinner.arms" />
+    </li>
+    <li class="speed">
+      <label for="speed">speed (1-100)</label>
+      <input type="number" id="speed" min="1" max="100"  data-ng-model="spinner.speed" />
+    </li>
+    <li class="save">
+      <input type="button" data-ng-click="craft()" value="save" />
+    </li>
+    <li class="permalink">
+      <label for="url">permalink</label> 
+      <div>
+        <input type="text" readonly="true" data-ng-model="url" placeholder="hit save to generate" />
+      </div>
+    </li>
+  </ul>
+</div>
