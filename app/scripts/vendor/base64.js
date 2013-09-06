@@ -1,3 +1,4 @@
+/*jshint jshint:false*/
 /*
 Copyright (c) 2008 Fred Palmer fred.palmer_at_gmail.com
 
